@@ -35,7 +35,7 @@ Expected output:
 <html>
   <head></head>
   <body>
-    <input type="checkbox" id="key" value="1">
+    <input type="checkbox" id="key" value="1" />
   </body>
 </html>
 ```
