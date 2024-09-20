@@ -1,0 +1,45 @@
+{
+  "name": "rehype-input-disable",
+  "version": "1.0.0",
+  "description": "rehype plugin plugin to disable or enable specific input elements",
+  "license": "MIT",
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "image",
+    "html",
+    "optimization"
+  ],
+  "repository": "Alphajack/rehype-input-disable",
+  "bugs": "https://github.com/AlphaJack/rehype-input-disable/issues",
+  "author": {
+    "name": "AlphaJack",
+    "email": "alphajack@tuta.io",
+    "url": "https://github.com/AlphaJack"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "ci": "npm run format && npm run test",
+    "format": "prettier --write .",
+    "test": "vitest"
+  },
+  "exports": {
+    "import": "./index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "rehype": "^13.0.1",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "rehype": "^13.0.1",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0"
+  }
+}
